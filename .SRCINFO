@@ -1,0 +1,16 @@
+pkgbase = php-dbus
+	pkgdesc = PHP PECL extension providing interface to dbus
+	pkgver = 0.r85.315d175
+	pkgrel = 1
+	url = https://github.com/derickr/pecl-dbus.git
+	arch = x86_64
+	arch = armv6h
+	arch = armv7h
+	arch = aarch64
+	license = PHP
+	depends = php>=7.0,libdbus
+	source = git+https://github.com/derickr/pecl-dbus.git
+	sha256sums = SKIP
+
+pkgname = php-dbus
+
